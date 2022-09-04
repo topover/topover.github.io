@@ -1,0 +1,13 @@
+/* черный фон сайта */
+body {
+ background-color: #000;
+}
+ 
+/* черный фон заголовка, белый цвет шрифта */
+h1 {
+ background: #121FCF;
+ background: linear-gradient(to right, #121FCF 7%, #CF1512 61%);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+
+}

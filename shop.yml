@@ -1,0 +1,506 @@
+Shop:
+  Blocks:
+    Name: 'Блоки'
+    Icon: '24'
+    Slot: 10
+    Items:
+      Sandstone:
+        Name: 'Песчаник'
+        Icon: '24 16'
+        Slot: 10
+        Lore:
+        - '§8Предметы:'
+        - ' §8▪ §7Песчаник §8x16'
+        - ''
+        - '§7Стоимость: §c8 бронза'
+        Cost: 'CLAY_BRICK:8'
+        Give:
+        - '24 16'
+      EndStone:
+        Name: 'Эндерняк'
+        Icon: '121 4'
+        Slot: 11
+        Lore:
+        - '§8Предметы:'
+        - ' §8▪ §7Эндерняк §8x4'
+        - ''
+        - '§7Стоимость: §c28 бронзы'
+        Cost: 'CLAY_BRICK:28'
+        Give:
+        - '121 4'
+      Glass:
+        Name: 'Стекло'
+        Icon: '20 4'
+        Slot: 12
+        Lore:
+        - '§8Предметы:'
+        - ' §8▪ §7Стекло §8x4'
+        - ''
+        - '§7Стоимость: §c16 бронзы'
+        Cost: 'CLAY_BRICK:16'
+        Give:
+        - '20 4'
+      Web:
+        Name: 'Паутина'
+        Icon: '30 1'
+        Slot: 13
+        Lore:
+        - '§8Предметы:'
+        - ' §8▪ §7Паутина'
+        - ''
+        - '§7Стоимость: §c16 бронзы'
+        Cost: 'CLAY_BRICK:16'
+        Give:
+        - '30 1'
+      Ladder:
+        Name: 'Лестница'
+        Icon: '65 16'
+        Slot: 14
+        Lore:
+        - '§8Предметы:'
+        - ' §8▪ §7Лестница §8x16'
+        - ''
+        - '§7Стоимость: §c16 бронзы'
+        Cost: 'CLAY_BRICK:16'
+        Give:
+        - '65 16'
+      Chest:
+        Name: 'Сундук'
+        Icon: '54 1'
+        Slot: 15
+        Lore:
+        - '§8Предметы:'
+        - ' §8▪ §7Сундук'
+        - ''
+        - '§7Стоимость: §f1 железо'
+        Cost: 'IRON_INGOT:1'
+        Give:
+        - '54 1'
+      EnderChest:
+        Name: 'Эндер сундук'
+        Icon: '130 1'
+        Slot: 16
+        Lore:
+        - '§8Предметы:'
+        - ' §8▪ §7Эндер сундук'
+        - ''
+        - '§7Стоимость: §61 золото'
+        Cost: 'GOLD_INGOT:1'
+        Give:
+        - '130 1'
+  Armor:
+    Name: 'Броня'
+    Icon: '303'
+    Slot: 11
+    Items:
+      LeatherHelmet:
+        Name: 'Кожаный шлем'
+        Icon: '298 1 PROTECTION_ENVIRONMENTAL:1;DURABILITY:1'
+        Slot: 10
+        Lore:
+        - '§8Предметы:'
+        - ' §8▪ §7Кожаный шлем §8(Защита I, Прочность I)'
+        - ''
+        - '§7Стоимость: §c1 бронза'
+        Cost: 'CLAY_BRICK:1'
+        Give:
+        - '298 1 PROTECTION_ENVIRONMENTAL:1;DURABILITY:1'
+      LeatherLeggings:
+        Name: 'Кожаные поножи'
+        Icon: '300 1 PROTECTION_ENVIRONMENTAL:1;DURABILITY:1'
+        Slot: 11
+        Lore:
+        - '§8Предметы:'
+        - ' §8▪ §7Кожаные поножи §8(Защита I, Прочность I)'
+        - ''
+        - '§7Стоимость: §c1 бронза'
+        Cost: 'CLAY_BRICK:1'
+        Give:
+        - '300 1 PROTECTION_ENVIRONMENTAL:1;DURABILITY:1'
+      LeatherBoots:
+        Name: 'Кожаные ботинки'
+        Icon: '301 1 PROTECTION_ENVIRONMENTAL:1;DURABILITY:1'
+        Slot: 12
+        Lore:
+        - '§8Предметы:'
+        - ' §8▪ §7Кожаные ботинки §8(Защита I, Прочность I)'
+        - ''
+        - '§7Стоимость: §c1 бронза'
+        Cost: 'CLAY_BRICK:1'
+        Give:
+        - '301 1 PROTECTION_ENVIRONMENTAL:1;DURABILITY:1'
+      ChainmailChestplate1:
+        Name: 'Кольчужный нагрудник I'
+        Icon: '303 1 PROTECTION_ENVIRONMENTAL:1;DURABILITY:1'
+        Slot: 13
+        Lore:
+        - '§8Предметы:'
+        - ' §8▪ §7Кольчужный нагрудник §8(Защита I, Прочность I)'
+        - ''
+        - '§7Стоимость: §f1 железо'
+        Cost: 'IRON_INGOT:1'
+        Give:
+        - '303 1 PROTECTION_ENVIRONMENTAL:1;DURABILITY:1'
+      ChainmailChestplate2:
+        Name: 'Кольчужный нагрудник II'
+        Icon: '303 1 PROTECTION_ENVIRONMENTAL:2;DURABILITY:1'
+        Slot: 14
+        Lore:
+        - '§8Предметы:'
+        - ' §8▪ §7Кольчужный нагрудник §8(Защита II, Прочность I)'
+        - ''
+        - '§7Стоимость: §f3 железа'
+        Cost: 'IRON_INGOT:3'
+        Give:
+        - '303 1 PROTECTION_ENVIRONMENTAL:2;DURABILITY:1'
+      ChainmailChestplate3:
+        Name: 'Кольчужный нагрудник III'
+        Icon: '303 1 PROTECTION_ENVIRONMENTAL:3;DURABILITY:1'
+        Slot: 15
+        Lore:
+        - '§8Предметы:'
+        - ' §8▪ §7Кольчужный нагрудник §8(Защита III, Прочность I)'
+        - ''
+        - '§7Стоимость: §f7 железа'
+        Cost: 'IRON_INGOT:7'
+        Give:
+        - '303 1 PROTECTION_ENVIRONMENTAL:3;DURABILITY:1'
+  Tools:
+    Name: 'Инструменты'
+    Icon: '274'
+    Slot: 12
+    Items:
+      WoodenPickaxe:
+        Name: 'Деревянная кирка'
+        Icon: '270 1 DIG_SPEED:1;DURABILITY:1'
+        Slot: 10
+        Lore:
+        - '§8Предметы:'
+        - ' §8▪ §7Деревянная кирка §8(Эффективность I, Прочность I)'
+        - ''
+        - '§7Стоимость: §c4 бронзы'
+        Cost: 'CLAY_BRICK:4'
+        Give:
+        - '270 1 DIG_SPEED:1;DURABILITY:1'
+      StonePickaxe:
+        Name: 'Каменная кирка'
+        Icon: '274 1 DIG_SPEED:2;DURABILITY:1'
+        Slot: 11
+        Lore:
+        - '§8Предметы:'
+        - ' §8▪ §7Каменная кирка §8(Эффективность II, Прочность I)'
+        - ''
+        - '§7Стоимость: §f2 железа'
+        Cost: 'IRON_INGOT:2'
+        Give:
+        - '274 1 DIG_SPEED:2;DURABILITY:1'
+      IronPickaxe:
+        Name: 'Железная кирка'
+        Icon: '257 1 DIG_SPEED:3;DURABILITY:1'
+        Slot: 12
+        Lore:
+        - '§8Предметы:'
+        - ' §8▪ §7Железная кирка §8(Эффективность III, Прочность I)'
+        - ''
+        - '§7Стоимость: §61 золото'
+        Cost: 'GOLD_INGOT:1'
+        Give:
+        - '257 1 DIG_SPEED:3;DURABILITY:1'
+      FishingRod:
+        Name: 'Удочка'
+        Icon: '346 1'
+        Slot: 13
+        Lore:
+        - '§8Предметы:'
+        - ' §8▪ §7Удочка'
+        - ''
+        - '§7Стоимость: §c3 бронзы'
+        Cost: 'CLAY_BRICK:3'
+        Give:
+        - '346 1'
+  Melee:
+    Name: 'Ближний бой'
+    Icon: '267'
+    Slot: 13
+    Items:
+      Stick:
+        Name: 'Палка'
+        Icon: '280 1 KNOCKBACK:1'
+        Slot: 10
+        Lore:
+        - '§8Предметы:'
+        - ' §8▪ §7Палка §8(Отдача I)'
+        - ''
+        - '§7Стоимость: §c8 бронзы'
+        Cost: 'CLAY_BRICK:8'
+        Give:
+        - '280 1 KNOCKBACK:1'
+      GoldenSword1:
+        Name: 'Золотой меч I'
+        Icon: '283 1 DAMAGE_ALL:1;DURABILITY:1'
+        Slot: 11
+        Lore:
+        - '§8Предметы:'
+        - ' §8▪ §7Золотой меч §8(Острота I, Прочность I)'
+        - ''
+        - '§7Стоимость: §f1 железо'
+        Cost: 'IRON_INGOT:1'
+        Give:
+        - '283 1 DAMAGE_ALL:1;DURABILITY:1'
+      GoldenSword2:
+        Name: 'Золотой меч II'
+        Icon: '283 1 DAMAGE_ALL:2;DURABILITY:1'
+        Slot: 12
+        Lore:
+        - '§8Предметы:'
+        - ' §8▪ §7Золотой меч §8(Острота II, Прочность I)'
+        - ''
+        - '§7Стоимость: §f3 железа'
+        Cost: 'IRON_INGOT:3'
+        Give:
+        - '283 1 DAMAGE_ALL:2;DURABILITY:1'
+      IronSword:
+        Name: 'Железный меч'
+        Icon: '267 1 DAMAGE_ALL:2;DURABILITY:1;KNOCKBACK:1'
+        Slot: 13
+        Lore:
+        - '§8Предметы:'
+        - ' §8▪ §7Железный меч §8(Острота II, Прочность I, Отдача I)'
+        - ''
+        - '§7Стоимость: §65 золота'
+        Cost: 'GOLD_INGOT:5'
+        Give:
+        - '267 1 DAMAGE_ALL:2;DURABILITY:1;KNOCKBACK:1'
+  Ranged:
+    Name: 'Дальний бой'
+    Icon: '261'
+    Slot: 14
+    Items:
+      Bow1:
+        Name: 'Лук I'
+        Icon: '261 1 ARROW_INFINITE:1'
+        Slot: 10
+        Lore:
+        - '§8Предметы:'
+        - ' §8▪ §7Лук §8(Бесконечность I)'
+        - ''
+        - '§7Стоимость: §63 золота'
+        Cost: 'GOLD_INGOT:3'
+        Give:
+        - '261 1 ARROW_INFINITE:1'
+      Bow2:
+        Name: 'Лук II'
+        Icon: '261 1 ARROW_INFINITE:1;ARROW_DAMAGE:1'
+        Slot: 11
+        Lore:
+        - '§8Предметы:'
+        - ' §8▪ §7Лук §8(Бесконечность I, Сила I)'
+        - ''
+        - '§7Стоимость: §67 золота'
+        Cost: 'GOLD_INGOT:7'
+        Give:
+        - '261 1 ARROW_INFINITE:1;ARROW_DAMAGE:1'
+      Bow3:
+        Name: 'Лук III'
+        Icon: '261 1 ARROW_INFINITE:1;ARROW_DAMAGE:1;ARROW_KNOCKBACK:1'
+        Slot: 12
+        Lore:
+        - '§8Предметы:'
+        - ' §8▪ §7Лук §8(Бесконечность I, Сила I, Откидывание I)'
+        - ''
+        - '§7Стоимость: §613 золота'
+        Cost: 'GOLD_INGOT:13'
+        Give:
+        - '261 1 ARROW_INFINITE:1;ARROW_DAMAGE:1;ARROW_KNOCKBACK:1'
+      Arrow:
+        Name: 'Стрела'
+        Icon: '262 1'
+        Slot: 13
+        Lore:
+        - '§8Предметы:'
+        - ' §8▪ §7Стрела'
+        - ''
+        - '§7Стоимость: §61 золото'
+        Cost: 'GOLD_INGOT:1'
+        Give:
+        - '262 1'
+  PotionsAndFood:
+    Name: 'Зелья и еда'
+    Icon: '322'
+    Slot: 15
+    Items:
+      CookedPorkchop:
+        Name: 'Свинина'
+        Icon: '320 2'
+        Slot: 10
+        Lore:
+        - '§8Предметы:'
+        - ' §8▪ §7Свинина §8x2'
+        - ''
+        - '§7Стоимость: §c4 бронзы'
+        Cost: 'CLAY_BRICK:4'
+        Give:
+        - '320 2'
+      CookedBeef:
+        Name: 'Стейк'
+        Icon: '364 2'
+        Slot: 11
+        Lore:
+        - '§8Предметы:'
+        - ' §8▪ §7Стейк §8x2'
+        - ''
+        - '§7Стоимость: §c4 бронзы'
+        Cost: 'CLAY_BRICK:4'
+        Give:
+        - '364 2'
+      Cookie:
+        Name: 'Печенька'
+        Icon: '357 4'
+        Slot: 12
+        Lore:
+        - '§8Предметы:'
+        - ' §8▪ §7Печенька §8x4'
+        - ''
+        - '§7Стоимость: §c4 бронзы'
+        Cost: 'CLAY_BRICK:4'
+        Give:
+        - '357 4'
+      GoldenApple:
+        Name: 'Золотое яблоко'
+        Icon: '322 1'
+        Slot: 13
+        Lore:
+        - '§8Предметы:'
+        - ' §8▪ §7Золотое яблоко'
+        - ''
+        - '§7Стоимость: §62 золота'
+        Cost: 'GOLD_INGOT:2'
+        Give:
+        - '322 1'
+      PotionSpeed:
+        Name: 'Зелье Скорость I'
+        Icon: '373:8194 1'
+        Slot: 14
+        Lore:
+        - '§8Предметы:'
+        - ' §8▪ §7Зелье Скорость I §8(3:00)'
+        - ''
+        - '§7Стоимость: §63 золота'
+        Cost: 'GOLD_INGOT:3'
+        Give:
+        - '373:8194 1'
+      PotionJump:
+        Name: 'Зелье Прыгучесть I'
+        Icon: '373:8203 1'
+        Slot: 15
+        Lore:
+        - '§8Предметы:'
+        - ' §8▪ §7Зелье Прыгучесть I §8(3:00)'
+        - ''
+        - '§7Стоимость: §63 золота'
+        Cost: 'GOLD_INGOT:3'
+        Give:
+        - '373:8203 1'
+      PotionStrength:
+        Name: 'Зелье Сила I'
+        Icon: '373:8201 1'
+        Slot: 16
+        Lore:
+        - '§8Предметы:'
+        - ' §8▪ §7Зелье Сила I §8(3:00)'
+        - ''
+        - '§7Стоимость: §65 золота'
+        Cost: 'GOLD_INGOT:5'
+        Give:
+        - '373:8201 1'
+  Other:
+    Name: 'Разное'
+    Icon: '46'
+    Slot: 16
+    Items:
+      EnderPearl:
+        Name: 'Эндерперл'
+        Icon: '368 1'
+        Slot: 10
+        Lore:
+        - '§8Предметы:'
+        - ' §8▪ §7Эндерперл'
+        - ''
+        - '§7Стоимость: §613 золота'
+        Cost: 'GOLD_INGOT:13'
+        Give:
+        - '368 1'
+      WaterBucket:
+        Name: 'Ведро воды'
+        Icon: '326 1'
+        Slot: 11
+        Lore:
+        - '§8Предметы:'
+        - ' §8▪ §7Ведро воды'
+        - ''
+        - '§7Стоимость: §62 золота'
+        Cost: 'GOLD_INGOT:2'
+        Give:
+        - '326 1'
+      TNT:
+        Name: 'TNT'
+        Icon: '46 1'
+        Slot: 12
+        Lore:
+        - '§8Предметы:'
+        - ' §8▪ §7TNT'
+        - ''
+        - '§7§oПри размещении TNT он'
+        - '§7§oавтоматически активируется'
+        - ''
+        - '§7Стоимость: §63 золота'
+        Cost: 'GOLD_INGOT:3'
+        Give:
+        - '46 1'
+      Teleport:
+        Name: 'Телепорт'
+        Icon: '337 1'
+        Slot: 13
+        Lore:
+        - '§8Предметы:'
+        - ' §8▪ §7Телепорт'
+        - ''
+        - '§7§oПри нажатии ПКМ вас'
+        - '§7§oтелепортирует на базу'
+        - ''
+        - '§7Стоимость: §f3 железа'
+        Cost: 'IRON_INGOT:3'
+        Give:
+        - '337 1'
+      Platform:
+        Name: 'Платформа'
+        Icon: '369 1'
+        Slot: 14
+        Lore:
+        - '§8Предметы:'
+        - ' §8▪ §7Платформа'
+        - ''
+        - '§7§oПри нажатии ПКМ создается'
+        - '§7§oспасательная платформа'
+        - '§7§oна 10 секунд'
+        - ''
+        - '§7Стоимость: §f3 железа'
+        Cost: 'IRON_INGOT:3'
+        Give:
+        - '369 1'
+      IronGolem:
+        Name: 'Железный голем'
+        Icon: '383:56 1'
+        Slot: 15
+        Lore:
+        - '§8Предметы:'
+        - ' §8▪ §7Железный голем'
+        - ''
+        - '§7§oПри нажатии ПКМ на блок спавнится'
+        - '§7§oжелезный голем, который'
+        - '§7§oзащищает ваш остров от врагов'
+        - ''
+        - '§7Стоимость: §f20 железа'
+        Cost: 'IRON_INGOT:20'
+        Give:
+        - '383:56 1'
